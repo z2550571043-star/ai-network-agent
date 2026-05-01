@@ -1,14 +1,8 @@
-# AI Network Agent
+该项目是一个基于 AI Agent 的网络与系统故障自动诊断平台，核心目标是：
 
-AI Agent 网络与系统故障自动诊断平台
-
-## 启动
-
-```bash
-pip install -r requirements.txt
-uvicorn app:app --reload
-```
-
-打开：
-
-http://127.0.0.1:8000/docs
+自动诊断代理网络问题
+分析 TUN / DNS / 路由异常
+检测 sing-box / Clash 配置错误
+自动生成修复建议
+使用 LLM 进行长链路推理
+支持多 Agent 协作
