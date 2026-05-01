@@ -1,0 +1,7 @@
+{
+  "dns": {
+    "strategy": "prefer_ipv6"
+  },
+  "inbounds": [],
+  "outbounds": []
+}
